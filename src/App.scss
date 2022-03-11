@@ -1,5 +1,7 @@
+@import './index.scss';
+
 .navbar-bg {
-    background: #fff;
+    background: #fff !important;
     z-index: 2;
 }
 
@@ -42,5 +44,17 @@
     p {
         font-size: 1.8rem;
         font-weight: 300;
+    }
+}
+
+@media (max-width: $mobile-resolution) {
+    .testimonial {
+        padding: 60px 0;
+
+        .video-section {
+            video {
+                width: 100%;
+            }
+        }
     }
 }

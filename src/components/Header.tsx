@@ -1,9 +1,10 @@
 import { Button, Container, Nav, Navbar } from 'react-bootstrap';
 import logo from '../assets/logo.png';
+import '../App.scss';
 
 const Header = () => {
     return (
-        <Navbar collapseOnSelect expand="lg" bg="light" sticky="top">
+        <Navbar collapseOnSelect expand="lg" fixed="top" className="navbar-bg">
             <Container>
                 <Navbar.Brand href="#home">
                     <img src={logo} alt="" height={70} />
