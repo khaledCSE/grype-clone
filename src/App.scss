@@ -1,0 +1,46 @@
+.navbar-bg {
+    background: #fff;
+    z-index: 2;
+}
+
+.testimonial {
+    width: 100%;
+    min-height: 60vh;
+    padding: 60px;
+    color: #fff;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    p {
+        font-size: 1.5rem;
+        font-weight: 400;
+        text-align: center;
+        line-height: 1;
+    }
+
+    .video-section {
+        width: 100%;
+        height: 500px;
+        // background: red;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        video {
+            width: 50%;
+        }
+    }
+}
+
+.simple-title {
+    // background: orange;
+    padding: 30px;
+    text-align: center;
+
+    p {
+        font-size: 1.8rem;
+        font-weight: 300;
+    }
+}
