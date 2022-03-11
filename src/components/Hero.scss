@@ -1,5 +1,29 @@
 .hero {
     width: 100%;
-    min-height: 85vh;
-    background: salmon;
+    height: 85vh;
+    // background: salmon;
+    overflow: hidden;
+    position: relative;
+
+    video {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        z-index: -1;
+    }
+
+    .overlay {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-image: linear-gradient(to right, #ffffffb8 40%, #00acca00);
+        z-index: 1;
+
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
 }
